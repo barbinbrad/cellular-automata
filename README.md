@@ -20,7 +20,7 @@ const YOUR_SETTINGS = {
 };
 
 const settings = YOUR_SETTINGS;
-``
+```
 
 
 ### Credits
