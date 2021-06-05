@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Brad Barbin</title>
+
+    <script type="module">
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <style>
+    html, body{
+        width: 100%;
+        height: 100%;
+        background: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #canvas-current{
+        margin: 0px auto;
+    }
+    
+    #canvas-memory{
+        display:none;
+    }
+    </style>
+
+    <meta name="description" content="Brad Barbin">
+    <meta property="og:title" content="Brad Barbin">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:url" content="https://bradbarb.in">
+    <link rel="canonical" href="https://bradbarb.in">
+
+</head>
+
+<body>
+    <canvas id="canvas-current"></canvas> 
+    <canvas id="canvas-memory"></canvas> 
+    <script src="./greeting.js"></script>
+    <script src="./cellular-automata.js"></script>
+</body>
+</html>
