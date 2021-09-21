@@ -2,7 +2,7 @@
 
 [Demo: http://barbinbrad.github.io/cellular-automata/](http://barbinbrad.github.io/cellular-automata/)
 
-A full-screen canvas implementation of cellular automata, using the 234-3 model.
+A full-screen canvas implementation of cellular automata.
 
 ### Settings
 
