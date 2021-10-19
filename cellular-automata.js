@@ -31,8 +31,8 @@ const PORTRAIT_SETTINGS = {
   GrayScale: false,
 };
 
-const settings = ( WIDTH > 1.3*HEIGHT ) ? LANDSCAPE_SETTINGS : PORTRAIT_SETTINGS;
-//const settings = PORTRAIT_SETTINGS; // always use Westinghouse logo
+//const settings = ( WIDTH > 1.3*HEIGHT ) ? LANDSCAPE_SETTINGS : PORTRAIT_SETTINGS;
+const settings = PORTRAIT_SETTINGS; // always use Westinghouse logo
 
 var image = new Image();
 image.src = settings.ImagePath;
